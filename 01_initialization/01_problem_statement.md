@@ -1,6 +1,6 @@
 # Problem Statement
 
-## Assignment 4: Phone Data Bill Calculator
+## Phone Data Bill Calculator
 
 Build a Python program that calculates a monthly phone bill based on data usage and displays the total cost along with usage messages.
 
