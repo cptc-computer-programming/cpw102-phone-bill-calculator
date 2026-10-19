@@ -6,17 +6,16 @@ Plan how your code will meet the product requirements. Keep answers brief.
 
 ## Inputs
 
-*List each input and its Python data type. Note any assumptions from the problem statement.*
+*List each input and its Python data type. Note the input assumptions.*
 
-## Processing
+## Processing and decisions
 
-*What calculations, conversions, or other operations will the program perform on the inputs? Include decisions or repetition if the lab requires them.*
-
+*What calculations and conversions are needed? How will you organize the decisions, including the nested decision?*
 
 ## Output
 
-*What will the program display? How will you format it?*
+*What will the program display for each usage category?*
 
-## Functions
+## Pseudocode
 
-*If this lab uses functions, give each function's name, purpose, parameters, and returned result (or none). Explain how the program starts. If functions are not part of this lab, write “Not applicable.”*
+*Outline your program's steps before writing Python.*

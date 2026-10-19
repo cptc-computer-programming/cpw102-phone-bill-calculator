@@ -22,7 +22,7 @@ Open a pull request from `development` into `main` in your own repository.
 2. Open the **Pull requests** tab and click **New pull request**.
 3. Set the base branch to `main` and the compare branch to `development`.
 4. Review the changes and click **Create pull request**.
-5. Give the pull request a title identifying {{LAB_TITLE}}.
+5. Give the pull request a title identifying Phone Data Bill Calculator.
 6. In the description, briefly explain:
    - What you completed
    - Any known issues or incomplete work

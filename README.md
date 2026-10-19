@@ -1,6 +1,4 @@
-# CPW 102 {{LAB_TITLE}}
-
-> **Instructor setup:** Before distributing this lab, complete [Template Setup](TEMPLATE_SETUP.md) and replace all `{{...}}` placeholders.
+# CPW 102 Phone Data Bill Calculator
 
 This project is organized into phases. Complete each phase in order.
 
@@ -26,19 +24,19 @@ Each folder represents a phase of the engineering design process:
 For **Repository name**, use:
 
 ```text
-lastname-cpw102-{{LAB_SLUG}}
+lastname-cpw102-phone-bill-calculator
 ```
 
 If you are working with more than one person, include each group member's last name:
 
 ```text
-lastname-lastname-cpw102-{{LAB_SLUG}}
+lastname-lastname-cpw102-phone-bill-calculator
 ```
 
 Example:
 
 ```text
-smith-jones-cpw102-{{LAB_SLUG}}
+smith-jones-cpw102-phone-bill-calculator
 ```
 
 5. Set the repository visibility to **Public**.
@@ -135,7 +133,7 @@ Do not begin writing Python code yet.
 
 1. **Initialization:** Read the problem statement.
 2. **Planning:** Complete [Product Requirements](02_planning/01_product_requirements.md) and [Engineering Design](02_planning/02_engineering_design.md), including your pseudocode.
-3. **Execution:** Implement your design in `03_execution/main.py`. The starter file is intentionally empty.
+3. **Execution:** Implement your design in `03_execution/data_bill.py`. The starter file is intentionally empty.
 4. **Testing:** Complete [Test Cases](04_testing/01_testing_cases.md). Calculate expected results before running your program.
 5. **Shipping:** Follow [Submission Instructions](05_shipping/01_submission_instructions.md) and submit your pull request URL in Canvas.
 

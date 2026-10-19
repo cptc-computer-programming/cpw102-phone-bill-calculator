@@ -1,20 +1,19 @@
 # Test Cases
 
-Run each case separately. Determine the expected results before running your program. Calculate any expected numeric results by hand.
+Run each case separately. Determine the expected results by hand before running your program.
 
 From the repository folder, run:
 
 ```text
-python 03_execution/main.py
+python 03_execution/data_bill.py
 ```
 
-For each case, paste the terminal input and output as evidence. Mark Pass or Fail and briefly explain why. Check the results against the problem statement, including any required labels, formatting, or validation.
+Check the usage message, overage amount when applicable, and total bill. Paste each terminal run as evidence, then mark Pass or Fail and explain why.
 
-## Case 1: Typical use
+## Case 1: Sample overage
 
-Enter:
-
-{{CASE_1_INPUTS}}
+- Data used (GB): 13
+- Base plan cost: 40
 
 **Expected results:**
 
@@ -26,11 +25,10 @@ Enter:
 
 **Pass / Fail and why:**
 
-## Case 2: {{CASE_2_FOCUS}}
+## Case 2: Sample within the limit
 
-Enter:
-
-{{CASE_2_INPUTS}}
+- Data used (GB): 9
+- Base plan cost: 40
 
 **Expected results:**
 
@@ -42,4 +40,64 @@ Enter:
 
 **Pass / Fail and why:**
 
-If a case fails, fix the program and add evidence of the rerun below that case. Add more cases if needed to check the requirements. Test invalid input only when the problem statement requires the program to handle it.
+## Case 3: At the data limit
+
+- Data used (GB): 10
+- Base plan cost: 40
+
+**Expected results:**
+
+**Evidence (paste your terminal run):**
+
+```text
+
+```
+
+**Pass / Fail and why:**
+
+## Case 4: Just above the data limit
+
+- Data used (GB): 10.5
+- Base plan cost: 40
+
+**Expected results:**
+
+**Evidence (paste your terminal run):**
+
+```text
+
+```
+
+**Pass / Fail and why:**
+
+## Case 5: At 5 GB over the limit
+
+- Data used (GB): 15
+- Base plan cost: 40
+
+**Expected results:**
+
+**Evidence (paste your terminal run):**
+
+```text
+
+```
+
+**Pass / Fail and why:**
+
+## Case 6: Above 5 GB over the limit
+
+- Data used (GB): 15.5
+- Base plan cost: 50
+
+**Expected results:**
+
+**Evidence (paste your terminal run):**
+
+```text
+
+```
+
+**Pass / Fail and why:**
+
+If a case fails, fix the program and add evidence of the rerun below that case.

@@ -12,7 +12,7 @@ Translate the problem statement into requirements. Keep answers brief.
 
 ## Requirements
 
-Write each requirement as “The program must…” in your own words. Cover the inputs, processing, and output described in the problem statement. Include any required formatting or validation. Make each statement specific enough to check. Add numbered items as needed.
+Write each requirement as “The program must…” in your own words. Cover the inputs, processing, and output described in the problem statement. Include the usage categories and input assumptions. Make each statement specific enough to check. Add numbered items as needed.
 
 1. The program must
 2. The program must
