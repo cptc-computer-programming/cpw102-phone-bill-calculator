@@ -34,4 +34,4 @@ Copy the URL of your pull request.
 
 Open the assignment submission page in Canvas and submit the pull request URL as your assignment submission.
 
-Do not submit a link to the repository homepage. Submit the link to the pull request.
+Do not submit a link to the repository homepage. 

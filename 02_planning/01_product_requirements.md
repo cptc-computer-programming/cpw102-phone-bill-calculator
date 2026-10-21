@@ -18,6 +18,4 @@ Write each requirement as “The program must…” in your own words. Cover the
 2. The program must
 3. The program must
 
-## Success
 
-**What should the user be able to do when the program works?**

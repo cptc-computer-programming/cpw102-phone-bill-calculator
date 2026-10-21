@@ -2,22 +2,13 @@
 
 ## Phone Data Bill Calculator
 
-Build a Python program that calculates a monthly phone bill based on data usage and displays the total cost along with usage messages.
+A phone customer wants to understand their monthly bill and whether their data use is getting expensive. They know how much data they used and the cost of their base plan, but they need help figuring out what they owe.
 
-## Required behavior
+Their plan includes 10 GB of data. Usage within that allowance costs only the base plan price. Each GB beyond the allowance adds $2 to the bill. For customers who exceed the allowance, up to 5 extra GB counts as moderate extra usage; more than 5 extra GB counts as high usage.
 
-Ask for monthly data usage in GB (`data_used`) and base plan cost (`base_cost`). The data limit is 10 GB and the overage rate is $2 per GB.
+Create a small Python program that helps this customer. The customer should be able to provide their monthly data usage and base plan cost, then see their total bill and a clear explanation of their usage. Customers within the allowance should know that they stayed within it. Customers who exceeded it should see how far over they went and whether their extra usage was moderate or high.
 
-- If `data_used <= 10`, display a message that the user is within the limit and display the total bill (the base plan cost).
-- If `data_used > 10`, display how many GB over the limit the user is. Use a nested `if`: if the overage is greater than 5 GB, display a high usage message; otherwise, display a moderate usage message. Display the total bill.
-
-For usage above the limit, use these formulas:
-
-```text
-overage_gb = data_used - 10
-overage_cost = overage_gb * 2
-total = base_cost + overage_cost
-```
+Choose your own prompts, message wording, variable names, and output layout. Use the planning worksheets to turn this situation into requirements and a design.
 
 ## Learning Goals
 
@@ -25,6 +16,7 @@ total = base_cost + overage_cost
 - Perform calculations using numeric values.
 - Use decision structures to control program flow.
 - Apply a nested decision in a meaningful way.
+- Write a function that returns a Boolean value and use its result in a decision.
 
 ## Example terminal runs
 
@@ -33,22 +25,25 @@ Enter data used (GB): 13
 Enter base plan cost: 40
 You are 3.0 GB over your limit.
 Moderate extra usage.
-Your total bill is: $46.0
+Your total bill is: $46.00
 ```
 
 ```text
 Enter data used (GB): 9
 Enter base plan cost: 40
 You are within your data limit.
-Your total bill is: $40.0
+Your total bill is: $40.00
 ```
-
-Your prompts and layout may differ.
 
 ## Technical expectations
 
-Write your Python program in `03_execution/data_bill.py`.
+You must:
 
-## Assumptions and limits
+- Write your Python program in `03_execution/data_bill.py`. 
+- Use a nested `if` to distinguish moderate from high extra usage for customers who exceed the allowance.
+- Create and use a function that accepts data usage in GB and returns a Boolean value indicating whether it exceeds the 10 GB allowance. 
+- Use that returned value to decide whether the customer is within the allowance or needs overage processing.
+
+## Assumptions
 
 All input data will be numeric. You do not need to handle invalid input.

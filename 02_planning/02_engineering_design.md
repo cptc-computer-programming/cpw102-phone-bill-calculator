@@ -16,6 +16,7 @@ Plan how your code will meet the product requirements. Keep answers brief.
 
 *What will the program display for each usage category?*
 
-## Pseudocode
+## Function design
 
-*Outline your program's steps before writing Python.*
+*Give your data-allowance-checking function's name, parameters, and returned result. How will the program use that result?*
+
